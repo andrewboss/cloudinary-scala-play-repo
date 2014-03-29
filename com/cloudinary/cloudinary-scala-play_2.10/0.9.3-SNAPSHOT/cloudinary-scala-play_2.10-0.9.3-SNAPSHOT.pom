@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.cloudinary</groupId>
+    <artifactId>cloudinary-scala-play_2.10</artifactId>
+    <packaging>jar</packaging>
+    <description>cloudinary-scala-play</description>
+    <version>0.9.3-SNAPSHOT</version>
+    <name>cloudinary-scala-play</name>
+    <organization>
+        <name>com.cloudinary</name>
+    </organization>
+    <url>http://cloudinary.com</url>
+    <licenses>
+        <license>
+            <name>MIT</name>
+            <url>http://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <connection>scm:git:github.com/cloudinary/cloudinary_scala.git</connection>
+        <developerConnection>scm:git:github.com/cloudinary/cloudinary_scala.git</developerConnection>
+        <url>github.com/cloudinary/cloudinary_scala.git</url>
+    </scm>
+    <developers>
+        <developer>
+            <id>cloudinary</id>
+            <name>Cloudinary</name>
+            <email>info@cloudinary.com</email>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.10.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.cloudinary</groupId>
+            <artifactId>cloudinary-core-scala_2.10</artifactId>
+            <version>0.9.3-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.typesafe.play</groupId>
+            <artifactId>play_2.10</artifactId>
+            <version>2.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.typesafe.play</groupId>
+            <artifactId>play-test_2.10</artifactId>
+            <version>2.2.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>sonatypesnapshots</id>
+            <name>sonatype snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>sonatypereleases</id>
+            <name>sonatype releases</name>
+            <url>https://oss.sonatype.org/content/repositories/releases/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>AndrewBosssnapshots</id>
+            <name>Andrew Boss snapshots</name>
+            <url>https://raw.githubusercontent.com/andrewboss/cloudinary-scala-core-repo/master/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>TypesafeReleasesRepository</id>
+            <name>Typesafe Releases Repository</name>
+            <url>http://repo.typesafe.com/typesafe/releases/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
