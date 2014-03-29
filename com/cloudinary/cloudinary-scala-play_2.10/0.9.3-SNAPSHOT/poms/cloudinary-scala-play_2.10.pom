@@ -67,6 +67,12 @@
             <layout>default</layout>
         </repository>
         <repository>
+            <id>AndrewBosssnapshots</id>
+            <name>Andrew Boss snapshots</name>
+            <url>https://raw.githubusercontent.com/andrewboss/cloudinary-scala-core-repo/master/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
             <id>TypesafeReleasesRepository</id>
             <name>Typesafe Releases Repository</name>
             <url>http://repo.typesafe.com/typesafe/releases/</url>
